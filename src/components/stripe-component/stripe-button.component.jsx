@@ -1,5 +1,6 @@
 import React from "react";
 import StripeCheckout from "react-stripe-checkout";
+import styled from "styled-components";
 
 const StripeCheckoutButton = ({ price }) => {
   const priceForStripe = price * 100;

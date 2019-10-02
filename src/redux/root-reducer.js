@@ -7,7 +7,6 @@ import cartReducer from "./cart/cart.reducer";
 import directoryReducer from "./directory/directory.reducer";
 import shopReducer from "./shop/shop.reducer";
 
-// this enable is to use either local storage or session   (redux  persist)
 const persistConfig = {
   key: "primary",
   storage,
